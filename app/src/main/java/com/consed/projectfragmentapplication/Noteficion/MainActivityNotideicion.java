@@ -12,8 +12,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 
-import com.adsadsasdas2d.textin2022.R;
-import com.adsadsasdas2d.textin2022.databinding.ActivityMainNotideicionBinding;
+import com.consed.projectfragmentapplication.R;
+import com.consed.projectfragmentapplication.databinding.ActivityMainNotideicionBinding;
+
 
 public class MainActivityNotideicion extends AppCompatActivity {
     ActivityMainNotideicionBinding binding;

@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 
-import com.adsadsasdas2d.textin2022.databinding.ActivityMainActivitybroBinding;
+import com.consed.projectfragmentapplication.databinding.ActivityMainActivitybroBinding;
+
 
 public class MainActivitybro extends AppCompatActivity {
     ActivityMainActivitybroBinding binding;

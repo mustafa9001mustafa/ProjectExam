@@ -2,7 +2,6 @@ package com.consed.projectfragmentapplication.servies.e2;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.content.Context;
 import android.widget.Toast;
 
 

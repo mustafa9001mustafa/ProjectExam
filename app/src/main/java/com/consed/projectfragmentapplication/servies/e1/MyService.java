@@ -1,5 +1,7 @@
 package com.consed.projectfragmentapplication.servies.e1;
 
+
+import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -12,8 +14,8 @@ import android.os.IBinder;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.adsadsasdas2d.textin2022.Noteficion.MainActivityNotideicion;
-import com.adsadsasdas2d.textin2022.R;
+import com.consed.projectfragmentapplication.R;
+
 
 public class MyService extends Service {
     MediaPlayer player;
@@ -24,7 +26,7 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        player = MediaPlayer.create(getApplicationContext(), R.raw.m);
+//        player = MediaPlayer.create(getApplicationContext(), R.raw.m);
 
     }
 

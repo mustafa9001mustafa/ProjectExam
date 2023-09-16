@@ -4,7 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.adsadsasdas2d.textin2022.databinding.ActivityMainServiceBinding;
+import com.consed.projectfragmentapplication.databinding.ActivityMainServiceBinding;
+
 
 public class MainActivityService extends AppCompatActivity {
     ActivityMainServiceBinding binding;
