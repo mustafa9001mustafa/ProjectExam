@@ -17,7 +17,6 @@ import com.consed.projectfragmentapplication.interfaces.OnClickDelete;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class DbSqlFragment extends Fragment {
 
     private FragmentSqlBinding binding;

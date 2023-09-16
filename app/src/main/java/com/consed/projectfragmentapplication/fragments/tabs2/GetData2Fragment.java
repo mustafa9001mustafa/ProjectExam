@@ -90,8 +90,8 @@ public class GetData2Fragment extends Fragment {
                         try {
                             // we are getting each json object.
                             JSONObject responseObj = response.getJSONObject(i);
-                            String userId = responseObj.getString("userId");
                             String id = responseObj.getString("id");
+                            String userId = responseObj.getString("userId");
                             String title = responseObj.getString("title");
                             String body = responseObj.getString("body");
                             courseModalArrayList.add(new CourseModalInternet(userId, id, title, body));
