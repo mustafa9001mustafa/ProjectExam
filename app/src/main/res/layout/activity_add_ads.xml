@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddAdsActivity">
+
+
+    <TextView
+        android:id="@+id/text_not_necessary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:text="إضافةعنصر"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_text_title"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="إضافة العنوان"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_not_necessary">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_text_description"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="إضافة الوصف"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filled_text_title">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="@dimen/_296sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_marginVertical="@dimen/_15sdp"
+        android:src="@drawable/round_corner"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filled_text_description" />
+
+    <TextView
+        android:id="@+id/add_image_not_nessesare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+\n إختر الصورة"
+        android:gravity="center"
+        android:textSize="@dimen/_40sdp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="@dimen/_60sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/add_image"
+        app:layout_constraintRight_toRightOf="@+id/add_image"
+        app:layout_constraintLeft_toLeftOf="@+id/add_image"
+        app:layout_constraintTop_toTopOf="@+id/add_image" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:text="إضافة"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        android:backgroundTint="@color/cool_color4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

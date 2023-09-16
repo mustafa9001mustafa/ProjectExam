@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:backgroundTint="@color/cool_color2"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        &lt;!&ndash;ImageView to display our course image&ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/idIVCourse"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:layout_margin="5dp" />-->
+
+        <!--text view for our course name-->
+        <TextView
+            android:id="@+id/idTVCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Course Name "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/idTVTracks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Tracks"
+            android:textColor="@color/white" />
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="2">-->
+
+<!--            &lt;!&ndash;text view for our batch name&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/idTVBatch"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Batch"-->
+<!--                android:textColor="@color/black" />-->
+
+<!--            &lt;!&ndash;text view to display course tracks&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/idTVTracks"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="Tracks"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

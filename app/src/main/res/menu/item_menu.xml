@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_home"
+        android:title="الرئيسية"
+        android:icon="@drawable/home_icon"/>
+
+    <item android:id="@+id/nav_favorite"
+        android:title="المفضلة"
+        android:icon="@drawable/favorite_icon"/>
+
+    <item android:id="@+id/nav_Category"
+        android:title="المشتريات"
+        android:icon="@drawable/shopping_cart"/>
+
+    <item android:id="@+id/nav_personal"
+        android:title="الملف الشخصي"
+        android:icon="@drawable/personal_icon"/>
+
+
+</menu>
